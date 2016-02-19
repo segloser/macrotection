@@ -33,6 +33,10 @@ __version__ = '0.1'
 __copyright__ = 'Read above, since I have just joint some pieces together'
 __license__ = 'Read above'
 
+print "We are going to install oletools first"
+import os
+os.system('pip install oletools')
+
 from oletools.olevba import VBA_Parser, TYPE_OLE, TYPE_OpenXML, TYPE_Word2003_XML, TYPE_MHTML
 import sys
 import Tkinter
@@ -47,13 +51,12 @@ reset.close()
 
 # Cleaning the screen and showing some general info about the use
 print(chr(27) + "[2J")
-print "Using this command line tool is simple. Just enter the full path of the file you want to scan"
-print "\n\nFor your convinience, copy the suspicious file in the same directory\
- \nof the tool and run it. Then, type the <name_of_file.extension> of the suspicious file\
-\n as an answer for the following question\n\n"
+print "Using this tool is simple. Just read and follow the progressive instructions shown"
+print "\n\nFor your convenience, copy the suspicious file in the same directory\
+ \nof the tool.\n\n "
 
 # suspicious = raw_input("Enter the entire path of the suspicious file, please: ")
-print("Enter the entire path of the suspicious file, please: ")
+print("The entire path of the suspicious file is: ")
 
 # suspicious and indicator as global variables
 global suspicious
