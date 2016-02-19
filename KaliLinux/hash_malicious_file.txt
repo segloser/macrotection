@@ -1,0 +1,9 @@
+Use the following hash to find a real malcious sample in your favorite malware repository
+
+SHA256 = add7794c4d70fd49c96c11dc924c6b65c4459d6295331414b40768867dab0350
+
+It is a recent malicious file involved in a Locky campaign.
+
+The binary is a Micorsoft document with macros, using social engineering to lure victims to activate macros.
+
+NEVER ACTIVATE MACROS TO OPEN UNWANTED, UNKOWN, UNEXPECTED FILES.
