@@ -44,10 +44,14 @@ from tkFileDialog import askopenfilename
 import tkMessageBox
 import time
 
-# Reseting the outputfile
+# Reseting the output files
 reset = open("output.txt", "w")
 reset.write('')
 reset.close()
+
+report_reset = open("raw_report.txt", "w")
+report_reset.write('')
+report_reset.close()
 
 # Cleaning the screen and showing some general info about the use
 print(chr(27) + "[2J")
