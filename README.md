@@ -5,3 +5,4 @@ A Kali Linux version with some GUI help from TK can be found in the KaliLinux fo
 
 A windows could be developed in the coming days.
 
+The name of this PoC is the result of joining Macro + Protection.
